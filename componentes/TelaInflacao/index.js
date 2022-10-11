@@ -5,17 +5,17 @@ import ItemValor from "../ItemValor";
 export default function TelaInflacao(){
     return(
         <ScrollView>
-           <ItemValor ano='2010' inflacao='5,91%'/>
-           <ItemValor ano='2011' inflacao='6,50%'/>
-           <ItemValor ano='2012' inflacao='5,84%'/>
-           <ItemValor ano='2013' inflacao='5,91%'/>
-           <ItemValor ano='2014' inflacao='6,41%'/>
-           <ItemValor ano='2015' inflacao='10,67%'/>
-           <ItemValor ano='2016' inflacao='6,29%'/>
-           <ItemValor ano='2017' inflacao='2,95%'/>
-           <ItemValor ano='2018' inflacao='3,75%'/>
-           <ItemValor ano='2019' inflacao='4,31%'/>
-           <ItemValor ano='2020' inflacao='4,52%'/>
+           <ItemValor texto='Ano' ano='2010' textoInflacao='Inflação' inflacao='5,91%'/>
+           <ItemValor texto='Ano' ano='2011' textoInflacao='Inflação' inflacao='6,50%'/>
+           <ItemValor texto='Ano' ano='2012' textoInflacao='Inflação' inflacao='5,84%'/>
+           <ItemValor texto='Ano' ano='2013' textoInflacao='Inflação' inflacao='5,91%'/>
+           <ItemValor texto='Ano' ano='2014' textoInflacao='Inflação' inflacao='6,41%'/>
+           <ItemValor texto='Ano' ano='2015' textoInflacao='Inflação' inflacao='10,67%'/>
+           <ItemValor texto='Ano' ano='2016' textoInflacao='Inflação' inflacao='6,29%'/>
+           <ItemValor texto='Ano' ano='2017' textoInflacao='Inflação' inflacao='2,95%'/>
+           <ItemValor texto='Ano' ano='2018' textoInflacao='Inflação' inflacao='3,75%'/>
+           <ItemValor texto='Ano' ano='2019' textoInflacao='Inflação' inflacao='4,31%'/>
+           <ItemValor texto='Ano' ano='2020' textoInflacao='Inflação' inflacao='4,52%'/>
         </ScrollView>
     )
 }
