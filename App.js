@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationContainer, TabActions } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import TelaInflacao from './componentes/TelaInflacao';
 import TelaSalario from './componentes/TelaSalario';
@@ -19,11 +19,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
